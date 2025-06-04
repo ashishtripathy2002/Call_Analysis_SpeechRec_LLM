@@ -1,0 +1,54 @@
+Greetings:
+  - "Hello! How can I assist you today?"
+  - "Hi there! Welcome to Our Company."
+  - "Good [morning/afternoon]! How may I help you?"
+  - "Thank you for reaching out to us at Our Company. How can I assist?"
+  - "Hi! I'm here to help. What can I do for you today?"
+  - "Welcome! Let me know how I can make your experience with Our Company better."
+  - "Hi! It's great to connect with you. How may I assist?"
+  - "good morning"
+  - "good evening"
+  - "hi"
+  - "hello"
+
+Disclaimers:
+  - "Please note that response times may vary during peak hours."
+  - "Thank you for contacting Our Company."
+  - "All conversations are recorded for quality and training purposes."
+  - "Policies and promotions are subject to change without notice."
+  - "Our recommendations are based on the information provided."
+  - "Refunds and returns are subject to Our Company’s policies."
+  - "Terms and conditions apply to all services and offers."
+  - "The information shared is for assistance purposes only."
+  - “this call will be recorded”
+  - “I will be recording this call”
+
+ProhibitedPhrases:
+  - "damn"
+  - "hell"
+  - "stupid"
+  - "idiot"
+  - "dumb"
+  - "retarded"
+  - "shut up"
+  - "shit"
+  - "crap" 
+
+ClosingStatements:
+  - "Thank you for contacting Our Company. Have a great day!"
+  - "We’re here if you need any further assistance. Take care!"
+  - "It was a pleasure helping you. Goodbye!"
+  - "Feel free to reach out again if you have more questions!"
+  - "Thank you for choosing Our Company. Stay safe!"
+  - "Wishing you a wonderful day ahead. Bye for now!"
+  - "We appreciate your trust in Our Company. See you next time!"
+
+PersonalInformationPatterns:
+  personal_number: "\\d{4,5}-\\d{4,5}"  # Matches personal number
+  date_dd_mm_yyyy: "\\d{2}-\\d{2}-\\d{4}"  # Matches date of form dd-mm-yyyy
+  multi_4_digit_patt: "\\b\\d{4}\\b.*\\b\\d{4}\\b"  # Matches multiple 4-digit patterns
+
+SensitiveInformationPatterns:
+  credit_card: "\\b(?:\\d{4}[- ]?){3}\\d{4}\\b"  # Matches card numbers like 1234-5678-1234-5678
+  atm_pin: "\\b\\d{4}\\b"  # Matches 4-digit numbers (ATM PIN)
+  account_password: "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$"  # Password validation

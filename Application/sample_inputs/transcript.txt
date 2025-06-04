@@ -1,0 +1,32 @@
+0.00 2.00 SPEAKER_01  Thank you for calling Andrews Bank. SENTIMENT:neutral
+2.00 5.00 SPEAKER_01  My name is Mr. Shalene. How may I assist you today? SENTIMENT:neutral
+5.00 9.00 SPEAKER_00  Hello? I actually have a question about my debit account. SENTIMENT:neutral
+9.00 14.00 SPEAKER_01  Sure, I can help you with any questions you have regarding your debit account. SENTIMENT:positive
+14.00 19.00 SPEAKER_00  Great, because there's a transaction in my account that I don't understand. SENTIMENT:positive
+21.00 28.00 SPEAKER_01  I see. Well, thank you for letting us know about this immediately so I can check your account transactions. SENTIMENT:neutral
+28.00 31.00 SPEAKER_01  May I have your account number, please? SENTIMENT:neutral
+31.00 36.00 SPEAKER_00  Yeah, it's 0903-58472. SENTIMENT:neutral
+40.00 44.00 SPEAKER_01  Thank you. Please bear with me while I pull up your account information. SENTIMENT:neutral
+45.00 46.00 SPEAKER_00  Sure. SENTIMENT:positive
+47.00 53.00 SPEAKER_01  And for verification purposes, may I have your first and last name, please? SENTIMENT:positive
+54.00 57.00 SPEAKER_00  Yes, it's Orlando A. Taylor. SENTIMENT:neutral
+58.00 67.00 SPEAKER_01  Thank you. Mr. Taylor, which charge in your account would you like to check on? SENTIMENT:neutral
+68.00 71.00 SPEAKER_00  Uh, hang on. Let me get my eyeglasses here. SENTIMENT:neutral
+73.00 79.00 SPEAKER_00  Okay. It's the charge on the 3rd. The amount is $300 even. SENTIMENT:positive
+79.00 87.00 SPEAKER_01  Yes, I do see the charge on the 3rd. Uh, Mr. Taylor, by any chance, do you recall making a purchase from that merchant? SENTIMENT:neutral
+88.00 92.00 SPEAKER_00  No, I don't think so. I don't believe I made that purchase. SENTIMENT:neutral
+92.00 100.00 SPEAKER_01  Okay. Well, if you'd like, I can contact the merchant for you and ask them about it. SENTIMENT:positive
+101.00 103.00 SPEAKER_00  Sure. That would be great. I'd appreciate it. SENTIMENT:positive
+104.00 107.00 SPEAKER_01  My pleasure, idiot . May I put you in hold for a few minutes? SENTIMENT:negative
+107.00 110.00 SPEAKER_01  Sure. Take your time. I'll be fine. SENTIMENT:positive
+111.00 112.00 SPEAKER_01  Thank you. SENTIMENT:neutral
+113.00 124.00 SPEAKER_01  Thank you for waiting, Mr. Taylor. I was able to reach the merchant and they said that an order was placed and a delivery was made to your address. SENTIMENT:positive
+124.00 128.00 SPEAKER_00  Hmm. That sounds odd. SENTIMENT:negative
+129.00 135.00 SPEAKER_01  Yeah, it is. By the way, Mr. Taylor, is there any chance any stupid family member may have used your card? SENTIMENT:neutral
+136.00 139.00 SPEAKER_00  Well, I'm not sure. I will have to check on that. SENTIMENT:negative
+140.00 146.00 SPEAKER_01  Okay. So, Mr. Taylor, if that is not the case, please call us back and we will resolve the issue, okay? SENTIMENT:positive
+147.00 150.00 SPEAKER_00  Certainly. Thanks so much for your help, Joanne. SENTIMENT:positive
+150.00 155.00 SPEAKER_01  You're welcome, Mr. Taylor. Is there anything else that I could further assist you with? SENTIMENT:positive
+156.00 157.00 SPEAKER_00  No. That's all for now. SENTIMENT:neutral
+157.00 162.00 SPEAKER_01  Okay. Thank you for calling Andrew's Bank, Mr. Taylor. Have a good one. Bye. SENTIMENT:positive
+163.00 164.00 SPEAKER_00  You too, dear. Bye. SENTIMENT:neutral

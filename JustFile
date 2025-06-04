@@ -1,0 +1,48 @@
+# Linux setup
+# set shell := ["bash", "-cu"]
+# set dotenv-load
+# venv := "source .venv/bin/activate" 
+
+# Windows Setup
+set shell := ["powershell", "-Command"]
+set dotenv-load
+venv := "@('.venv\\Scripts\\Activate')"
+
+default:
+  just --list
+
+setup:
+    sudo apt update && sudo apt install ffmpeg && ollama pull llama3  && uv sync
+# for windows system download ffmpeg zip, save it in C and add the path to system path variable
+
+frontend:
+   uv run streamlit run Application/Frontend/app.py
+
+backend:
+    uv run fastapi run Application/Backend/fast_api_server.py
+
+run:
+    just backend & just frontend
+
+ruff_check:
+  uv run ruff check --select ALL .
+
+git_log:
+  git log --graph --oneline --all
+  
+documentation:
+    uv run mkdocs serve
+
+fe_win:
+    uv run streamlit run .\Application\Frontend\app.py
+
+be_win:
+    uv run fastapi run .\Application\Backend\fast_api_server.py
+
+run_win:
+  Start-Process powershell -ArgumentList "just be_win"; Start-Process powershell -ArgumentList "just fe_win"
+
+run_logger:
+  uv run python Application/unified_logging/logging_server.py &  
+  sleep 20 & # to ensure server is setup before running
+  tail -f logs/logs.log

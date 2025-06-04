@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+Application/Backend/__pycache__/
+Application/Frontend/functionality/__pycache__/
+
+# Virtual environments
+.venv
+.ruff_cache
+
+# User data
+nohup.out
+uploads

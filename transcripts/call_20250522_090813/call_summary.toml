@@ -1,0 +1,2 @@
+[llm_response]
+response = "'summary': Customer has a transaction in their debit account that they don't understand, and the representative helps them investigate and possibly resolve the issue.\n'call_theme': Account investigation"

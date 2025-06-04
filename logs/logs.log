@@ -1,0 +1,4 @@
+[INFO] | 2025-05-22 14:30:38.753 | INFO | fast_api_server.py:<module>:216 | FastAPI application initialized.
+[INFO] | 2025-05-22 14:31:24.623 | INFO | app.py:<module>:25 | Frontend started.
+[INFO] | 2025-05-22 14:31:46.030 | INFO | app.py:<module>:25 | Frontend started.
+[INFO] | 2025-05-22 14:34:02.328 | INFO | fast_api_server.py:analyze_summary_call:233 | Summary/theme query received.

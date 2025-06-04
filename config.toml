@@ -1,0 +1,11 @@
+[fastapi]
+host = "127.0.0.1"
+port = 8000
+workers = 4
+upload_url = "http://127.0.0.1:8000/upload-audio/"
+process_url = "http://127.0.0.1:8000/process-audio/"
+llm_summary_url = "http://127.0.0.1:8000/llm_summary_call"
+llm_function_url = "http://127.0.0.1:8000/llm_function_call"
+
+[pyannote]
+use_auth_token = "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"

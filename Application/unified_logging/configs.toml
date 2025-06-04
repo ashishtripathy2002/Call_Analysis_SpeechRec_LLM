@@ -1,0 +1,12 @@
+#GiG
+
+
+#has to be one of "TRACE", "DEBUG", "INFO", "SUCCESS", "WARNING", "ERROR", "CRITICAL"
+min_log_level = "DEBUG" #Only logs above this will be logged
+log_server_port = 9999
+client_log_format = "{time:YYYY-MM-DD HH:mm:ss.SSS} | {level} | {file}:{function}:{line} | {message}"
+server_log_format = "[{level}] | {message}"
+log_rotation = "00:00" #change to a new file at 12am every day
+log_file_name = "logs/logs.log"
+log_compression = "zip"
+

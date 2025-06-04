@@ -1,0 +1,2 @@
+[llm_response]
+response = "Here is the generated call summary and call theme:\n\n{\n'summary': \"Sarah had an unauthorized credit card charge, James had issues with transferring funds due to unusual activity.\",\n'call_theme': \"Dispute resolution\"\n}"

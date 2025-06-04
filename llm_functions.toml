@@ -1,0 +1,135 @@
+[[functions]]
+name = "show_sentiment"
+description = "Plot sentiment analysis as graphs"
+
+[functions.parameters]
+type = "object"
+
+[functions.parameters.properties.sentiment_count]
+type = "dict"
+description = "A dictionary containing sentiment related information for speakers"
+
+[functions.parameters.properties.speaker]
+type = "string"
+enum = ["Net", "Handler", "Client"]
+description = "The speaker to analyze (Net for combined, Handler for agent, Client for customer)"
+
+[functions.parameters.properties.sentiment_type]
+type = "string"
+enum = ["all", "positive", "neutral", "negative"]
+description = "Type of sentiment to display"
+
+functions.parameters.required = ["speaker", "sentiment_type"]
+
+[[functions]]
+name = "show_sentiment_text"
+description = "Show sentiment analysis as text summary"
+
+[functions.parameters]
+type = "object"
+
+[functions.parameters.properties.sentiment_count]
+type = "dict"
+description = "A dictionary containing sentiment related information for speakers"
+
+[functions.parameters.properties.speaker]
+type = "string"
+enum = ["Net", "Handler", "Client"]
+description = "The speaker to analyze (Net for combined, Handler for agent, Client for customer)"
+
+[functions.parameters.properties.sentiment_type]
+type = "string"
+enum = ["all", "positive", "neutral", "negative"]
+description = "Type of sentiment to display"
+
+functions.parameters.required = ["speaker", "sentiment_type"]
+
+[[functions]]
+name = "get_count_message"
+description = "Get count statistics for specific conversation elements like greeting, disclaimer, closure, pii violations. Used for how many or count of type questions"
+
+[functions.parameters]
+type = "object"
+
+[functions.parameters.properties.attr_json]
+type = "dict"
+description = "A dictionary containing various attribute related information like greeting, disclaimer, closure, pii"
+
+[functions.parameters.properties.count_type]
+type = "string"
+enum = ["greeting", "disclaimer", "closure", "pii"]
+description = "Type of count statistic to retrieve"
+
+functions.parameters.required = ["attr_json", "count_type"]
+
+[[functions]]
+name = "show_time_split"
+description = "Show talk time distribution between handler and client"
+
+[functions.parameters]
+type = "object"
+
+[functions.parameters.properties.attr_json]
+type = "dict"
+description = "A dictionary containing various attribute related information like greeting, disclaimer, closure, pii"
+
+[functions.parameters.properties.speaker]
+type = "string"
+enum = ["all", "handler", "client"]
+description = "Show comparison ('all') or specific speaker time"
+
+functions.parameters.required = ["attr_json", "speaker"]
+
+[[functions]]
+name = "show_conversation_speed"
+description = "Show conversation speed in words per second"
+
+[functions.parameters]
+type = "object"
+
+[functions.parameters.properties.attr_json]
+type = "dict"
+description = "A dictionary containing various attribute related information like greeting, disclaimer, closure, pii"
+
+[functions.parameters.properties.speaker]
+type = "string"
+enum = ["all", "handler", "client"]
+description = "Show comparison ('all') or specific speaker speed"
+
+functions.parameters.required = ["attr_json", "speaker"]
+
+[[functions]]
+name = "analyze_signs"
+description = "Analyze good and bad signs in the conversation"
+
+[functions.parameters]
+type = "object"
+
+[functions.parameters.properties.attr_json]
+type = "dict"
+description = "A dictionary containing various attribute related information like greeting, disclaimer, closure, pii"
+
+[functions.parameters.properties.sign_type]
+type = "string"
+enum = ["all", "good_signs", "bad_signs"]
+description = "Type of signs to display"
+
+functions.parameters.required = ["attr_json", "sign_type"]
+
+[[functions]]
+name = "get_dialog_instance"
+description = "Get specific dialog instances from the conversation like greeting, disclaimer, closure, pii violations. Used for where type questions."
+
+[functions.parameters]
+type = "object"
+
+[functions.parameters.properties.conversation_json]
+type = "list"
+description = "containing call conversation level information for each dialog"
+
+[functions.parameters.properties.dialog_type]
+type = "string"
+enum = ["greeting", "disclaimer", "closure", "prohibited_words", "pii"]
+description = "Type of dialog to retrieve"
+
+functions.parameters.required = ["dialog_type"]

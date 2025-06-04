@@ -1,0 +1,38 @@
+0.00 2.00 SPEAKER_01  Thank you for calling Andrews Bank. SENTIMENT:neutral
+2.00 5.00 SPEAKER_01  My name is Mr. Shalene. How may I assist you today? SENTIMENT:neutral
+5.00 9.00 SPEAKER_00  Hi, this is Sarah. I have a question about my credit card charges. SENTIMENT:neutral
+9.00 12.00 SPEAKER_02  And this is James. I also have an issue with my account. SENTIMENT:neutral
+12.00 16.00 SPEAKER_01  Sure, I can assist both of you. Let’s start with Sarah. What seems to be the issue? SENTIMENT:positive
+16.00 22.00 SPEAKER_00  There’s a charge of $250 from a store I’ve never shopped at. SENTIMENT:negative
+22.00 28.00 SPEAKER_01  I see. Let me pull up your account details. Can you provide me with your account number? SENTIMENT:neutral
+28.00 33.00 SPEAKER_00  Yes, it's 7456-88921. SENTIMENT:neutral
+33.00 38.00 SPEAKER_01  Thank you, Sarah. Please hold for a moment while I check. SENTIMENT:neutral
+38.00 42.00 SPEAKER_00  Sure. SENTIMENT:positive
+42.00 48.00 SPEAKER_01  I do see that charge. It was made online on the 5th. Are you certain this wasn’t you? SENTIMENT:neutral
+48.00 53.00 SPEAKER_00  Yes, absolutely. I haven’t used my card for online purchases recently. SENTIMENT:negative
+53.00 59.00 SPEAKER_01  Understood. I can help you dispute this charge. Would you like me to proceed? SENTIMENT:positive
+59.00 63.00 SPEAKER_00  Yes, please. SENTIMENT:positive
+63.00 68.00 SPEAKER_01  Alright, I’ll file the dispute. You’ll receive a follow-up within 3–5 business days. SENTIMENT:neutral
+68.00 72.00 SPEAKER_00  Thank you so much. SENTIMENT:positive
+72.00 77.00 SPEAKER_01  My pleasure. Now, James, how can I assist you? SENTIMENT:neutral
+77.00 83.00 SPEAKER_02  I was trying to transfer funds, but I keep getting an error message. SENTIMENT:negative
+83.00 88.00 SPEAKER_01  I see. Could you share the exact error message you received? SENTIMENT:neutral
+88.00 94.00 SPEAKER_02  It says, ‘Transaction failed. Please contact customer support.’ SENTIMENT:negative
+94.00 100.00 SPEAKER_01  Alright. Let me check your account status. Can you provide your account number? SENTIMENT:neutral
+100.00 105.00 SPEAKER_02  Sure, it's 3214-77654. SENTIMENT:neutral
+105.00 110.00 SPEAKER_01  Thank you. Please give me a moment to review your account. SENTIMENT:neutral
+110.00 115.00 SPEAKER_01  It looks like there’s a temporary hold due to unusual activity. SENTIMENT:neutral
+115.00 120.00 SPEAKER_02  Oh, that’s strange. What kind of activity? SENTIMENT:negative
+120.00 126.00 SPEAKER_01  It seems multiple large transfers were attempted in a short time. SENTIMENT:neutral
+126.00 130.00 SPEAKER_02  I wasn’t aware of that. Can you remove the hold? SENTIMENT:negative
+130.00 136.00 SPEAKER_01  I can escalate this to our fraud department for review. Would that be okay? SENTIMENT:positive
+136.00 140.00 SPEAKER_02  Yes, please do that. SENTIMENT:positive
+140.00 145.00 SPEAKER_01  Alright, I’ve submitted the request. You’ll receive an update within 24 hours. SENTIMENT:neutral
+145.00 150.00 SPEAKER_02  Thanks a lot for your help. SENTIMENT:positive
+150.00 154.00 SPEAKER_01  You’re welcome, James. Anything else I can assist you with? SENTIMENT:positive
+154.00 157.00 SPEAKER_02  No, that’s all. SENTIMENT:neutral
+157.00 161.00 SPEAKER_00  I’m good too. Thanks again. SENTIMENT:positive
+161.00 166.00 SPEAKER_01  Alright. Thank you both for calling Andrews Bank. Have a great day! SENTIMENT:positive
+166.00 168.00 SPEAKER_00  You too! SENTIMENT:neutral
+168.00 170.00 SPEAKER_02  Thanks, bye! SENTIMENT:neutral
+
