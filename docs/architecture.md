@@ -23,7 +23,7 @@ __Frontend-Backend interaction__
 Llm is used for the following 2 functionalities:-
 
 - __Call summarization and call theme identification__: Utilize llama3 to identify call summary and the call theme for better readability on the homepage. Sample shown below
-![alt text](image.png)
+![alt text](home_page.png)
 
 - __Individual call level analysis__: added a `Smart Analysis` module within the analytics page to allow the user to query specific analysis related to the call and return the relevant text or graph plots. The llm analyses the question and returns the list of function/s to be called. The functionalities covered are listed below.
 

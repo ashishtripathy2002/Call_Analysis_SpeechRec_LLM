@@ -36,9 +36,6 @@ __To prevent file duplication, we have added a button called "add another file" 
 - As per the requirement mentioned, we have implemented the llm such that it returns the function with parameters that need to be called. However this is causing instances of hallucinations where it is creating imaginary function inspite of strict guidelines. It resolves on its own after a couple of retries.
     ![alt text](<img3.jpg>)
 
-- `N999` ruff issues: Since we used the architecture from our speech recognition project we had used folder names of the form Frontend and Backend, which is causing this issue. We tried to change the folders to lower case form - `frontend` and `backend` but they were not getting captured in git commits, hence these issues are unresolved.
-
-    ![alt text](<img2.jpg>)
 
 - We are using eval() function to invoke the function returned by the llm as a string output. However this is causing  `S307` ruff issues. The alternatives available are causing the function calls to crash with the llm outputs.
 
