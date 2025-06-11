@@ -6,9 +6,15 @@
 ![uv](https://img.shields.io/badge/uv-6E44FF?style=for-the-badge&logo=python&logoColor=white)
 ![Just](https://img.shields.io/badge/Just-000000?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+## 🎓 Academic Affiliation
+
+**Ashish Tripathy**  
+M.Tech in Data Science  
+[Indian Institute of Technology Palakkad](https://iitpkd.ac.in)  
+📍 Kerala, India  
 
 
- __Pre Requisites__
+## __Pre Requisites__
 
 - Linux OS(>= 22.04)
 - Python(=3.12) 
